@@ -4,5 +4,6 @@ Template.video.onRendered(function() {
   this.autorun(() => {
   var video = document.querySelector('video');
   makeVideoPlayableInline(video, false);
+  video.play();
   });
 });
